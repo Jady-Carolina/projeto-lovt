@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Ropa sans, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px #ccc;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.slogan {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    bottom: 14px;
+    width: 38px;
+    height: 20px;
+}
+
+
+.banner{
+    width: 100%;
+    margin: 20px auto 37px;
+    position: relative;
+    display: flex;
+ 
+}
+
+.banner img {
+   width: 98%;
+   padding: 28px;
+   justify-content: center;
+}
+
+/*-------------------------------------------------------*/
+
+.produtos {
+    display: flex;
+    width: 100%;
+    padding: 28px;
+    justify-content: space-around;
+
+}
+
+.produtos img{
+    width: 600px;
+    align-items: center;
+}
+
+.card {
+    width:600px;
+    background-color: #EEEEEE;
+    height: 600px;
+    justify-content: space-between;
+}
+ 
+.valor{
+    width: 86px;
+    height: 33px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 27px;
+    color: #888888;
+    padding: 18px;
+    margin: 20px;
+}
+
+.botao {
+    width: 100px;
+    height: 50px;
+    background: #51D275;
+    border-radius: 30px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 60px;
+    margin: 20px;
+}
+
+.botao2{
+    width: 100px;
+    height: 50px;
+    background: #DC9730;
+    border-radius: 30px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.pares{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.descricao{
+    
+        max-width: 100%;
+        height: 44px;
+        font-family: 'Ropa Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 11px;
+        text-align: justify;
+        color: #555555;
+        margin: 0px 13px 12px 12px;
+}
+
+/*-------------------------------------------------------*/
+
+.name{
+    
+    margin-bottom: 13px;
+    width: 266px;
+    height: 33px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    color: #888888;
+
+}
+
+.your-style{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 80px;
+    width: 600px;
+    margin-bottom: 13px;
+}
+
+.botao1 {
+    position: absolute;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #888888;    
+}
+
+.img1 {
+    position: absolute;
+    opacity: 0.5;
+    max-width: 100%;  
+}
+
+
+footer{
+    max-width: 100%;
+    height: 240px;
+    margin: 0px auto 40px;
+    background: #333333;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.mapa{
+    display: flex;
+    height: 210px;
+    border-radius: 40px;
+    padding: 18px;
+    width: 289px;
+}
+
+.dados {
+    max-width: 175px;
+    margin: 49px 45px 99px 20px;
+}
+.dados div{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: justify;
+    color: #FFFFFF;
+    max-width: 100%;
+}
+
+.redes-sociais{
+    max-width: 98px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 55px;
+}
